@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Encuesta sobre herramientas 
+        </h1>
+    </header>
+    <main>
+        <article>
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Datos de la encuesta</legend>
+
+                    <label for="estudiante">Nombre del estudiante:</label>
+                    <input type="text" name="estudiante" id="estudiante" required>
+
+                    <label for="nivel">Nivel académico</label>
+                    <select name="nivel" id="nivel" required>
+                        <option value="">Seleccione un nivel</option>
+                        <option value="basica">Educación básica</option>
+                        <option value="bachillerato">Bachillerato</option>
+                    </select>
+
+                    <p>¿Con que frecuencia usa herramientas digitales?</p>
+                    <label>
+                        <input type="radio" name="frecuencia" value="diario" required>
+                        Diariamente
+                    </label>
+
+                    <label>
+                        <input type="radio" name="frecuencia" value="semanalmente">
+                        Semanalmente
+                    </label>
+
+                    <p>Herramientas usadas</p>
+                    <label>
+                        <input type="checkbox" name="tools" value="classroom">
+                        Google Classroom
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="tools" value="canva">
+                        Canva
+                    </label>
+
+                    <label for="comentarios">Comentarios</label>
+                    <textarea name="comentarios" id="comentarios" rows="4" placeholder="Comente lo que quiera"></textarea>
+
+                    <button type="submit">Enviar información</button>
+                </fieldset>
+
+            </form>
+        </article>
+    </main>
+</body>
+</html>
